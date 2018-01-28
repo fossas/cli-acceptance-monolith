@@ -1,0 +1,14 @@
+version: 1
+
+cli:
+  server: http://localhost:9578
+  api_key: aa037953ac40cbbfbe321968297d302d
+
+analyze:
+  modules:
+    - name: recast
+      path: recast/package.json
+      type: CommonJSPackage
+    - name: optimistic
+      path: optimistic/package.json
+      type: CommonJSPackage
